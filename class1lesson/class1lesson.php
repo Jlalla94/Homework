@@ -1,14 +1,14 @@
 <?php
 class Animal {
 
-	private  $name = "кошка";
+	private  $name = "cat";
 
 	public function get_name(){
 		return $this->name . "\n";
 	}
 }
 class Mleca extends Animal {
-	private $from = "Дом";
+	private $from = "Home";
 	
 	public function get_from(){
 		return $this->from . "\n";
@@ -16,7 +16,7 @@ class Mleca extends Animal {
 }	
 
 class Cat extends Mleca {
-	private $clichka = "HeTy";
+	private $clichka = "none";
 	
 	public function getclichka()
     {
